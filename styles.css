@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+
+    grid-gap: 1px;
+    height: 600px;
+    width: 600px;
+}
+.square {
+    display: grid;
+    border: solid black 0.5px;
+    background-color: white;
+}
+
+
+.btns button{
+    height: 50px;
+    width: 70px;
+    margin: 20px;
+
+}
+#choose-size {
+    float: left;
+}
